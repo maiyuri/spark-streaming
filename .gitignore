@@ -1,0 +1,7 @@
+.conda
+tmp/commits
+tmp/offsets
+tmp/sources
+metadata
+.metadata.crc
+
