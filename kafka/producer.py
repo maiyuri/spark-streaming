@@ -22,7 +22,7 @@ def gen_msg(qtd_msg):
         })
     return msgs
 
-for msg in gen_msg(1000000):
+for msg in gen_msg(10):
     message_data = json.dumps(msg).encode('utf-8')
     # Send the serialized message to the Kafka topic
     producer.send(topicName, message_data, key, headers)
